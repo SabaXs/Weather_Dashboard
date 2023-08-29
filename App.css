@@ -1,0 +1,57 @@
+/* App */
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+/* InputForm */
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  margin-left: 15px;
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* WeatherCard */
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #a5c9ede7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: aliceblue;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+text {
+  font-size: 25px;
+  font-style: bold;
+}
+
+/* Responsive */
+@media screen and (max-width: 480px) {
+  .weather-card {
+    max-width: 100%;
+  }
+}
